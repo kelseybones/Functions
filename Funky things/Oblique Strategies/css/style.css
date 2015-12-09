@@ -1,0 +1,76 @@
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+
+body {
+    background-color: cadetblue;
+    font-family: BebasNeueRegular;
+}
+
+h1 {
+    font-size: 6em;
+    line-height: 1;
+    margin: 0;
+}
+
+h2 {
+    font-size: 6em;   
+}
+
+p {
+    font-family: Roboto-Regular;
+    font-kerning: 5px;
+    text-align: center;
+    text-align: justify;
+}
+
+.intro {
+    float: left;
+    width: 500px;
+    height: 500px;
+    padding-left: 30px;
+}
+
+.person {
+    float: right;   
+}
+
+.button {
+    width: 500px;
+    padding-top: 20px;
+    float: left;
+}
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: BebasNeueRegular;
+    color: #262626;
+    font-size: 20px;
+    background: transparent;
+    padding: 10px 20px 10px 20px;
+    border: solid #262626 2px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color: #437b7d;   
+}
+
+.quote {
+    font-size: 6em;
+    text-align: right;
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+}
