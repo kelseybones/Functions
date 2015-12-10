@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: Roboto-Regular;
-    src: url('../fonts/BebasNeue Regular.otf');
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 4em;
     line-height: 1;
     margin: 0;
 }
@@ -25,14 +25,14 @@ h2 {
 
 p {
     font-family: Roboto-Regular;
-    font-kerning: 5px;
+    font-kerning: 6px;
     text-align: center;
     text-align: justify;
 }
 
 .intro {
     float: left;
-    width: 500px;
+    width: 400px;
     height: 500px;
     padding-left: 30px;
 }
