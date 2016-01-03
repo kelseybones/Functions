@@ -19,10 +19,6 @@ h1 {
     margin: 0;
 }
 
-h2 {
-    font-size: 6em;   
-}
-
 p {
     font-family: Roboto-Regular;
     font-kerning: 6px;
@@ -57,6 +53,7 @@ p {
     background: transparent;
     padding: 10px 20px 10px 20px;
     border: solid #262626 2px;
+    outline: none;
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
@@ -73,4 +70,47 @@ p {
     float: right;
     padding-top: 50px;
     padding-right: 50px;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+    opacity: 0;
+    -webkit-animation:fadeIn ease-in 1;  
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration: 0.9s;
+    -moz-animation-duration: 0.9s;
+    animation-duration: 0.9s;
+}
+
+.fade-in.one {
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.fade-in.two {
+    -webkit-animation-delay: 0.45s;
+    -moz-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.fade-in.three {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.fade-in.four {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
 }
